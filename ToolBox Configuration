@@ -1,0 +1,21 @@
+# The succeding lines are the configuration code for the Start Up Page of the ToolBox App
+{
+  Column
+  verticalAlignment : center 
+  [
+    {
+      Image
+      name  : whitelogoone
+      onClick : Navigation - navigatetoStartUpRole
+      alignment : center
+      marginTop : 22
+      height :  77
+    }
+    {
+      Text
+      name : loading
+      alignment : center
+      marginTop : 7
+    }
+  ]
+}
