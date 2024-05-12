@@ -72,7 +72,29 @@
   horizontalAlignment :   start
   [
     {
-
+      Text
+      name : signin
+      alignment : centerLeft
+    }  
+    {
+      Text
+      name : withyour
+      alignment : centerLeft
+    }
+    {
+      Column
+      alignment : centerLeft
+      marginTop : 51
+      paddingLeft : 1
+      paddingRight : 1
+      horizontalAlignment :   start
+      [
+        {
+          Text
+          name : price
+          alignment : centerLeft
+        }
+  
       }
   ]  
 }
