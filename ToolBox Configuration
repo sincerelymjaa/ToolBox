@@ -63,3 +63,16 @@
   ]  
 }
 
+# The succeding lines are the configuration code for the Admin Sign In of the ToolBox App
+{
+  Column
+  paddingLeft : 62
+  paddingRight : 62
+  paddingTop : 174
+  horizontalAlignment :   start
+  [
+    {
+
+      }
+  ]  
+}
