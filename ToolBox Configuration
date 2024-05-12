@@ -22,5 +22,44 @@
 
 
 # The succeding lines are the configuration code for the Select-Your-Role of the ToolBox App
-
+{
+  Column
+  paddingLeft : 37
+  paddingRight : 37
+  paddingTop : 150
+  [
+    {
+          Text
+          name : selectyour
+          alignment : center
+    }
+    {
+          Text
+          name : admin
+          onClick : Navigation - navigatetoAdminSignIn
+          alignment : center
+          marginLeft : 16
+          marginRight : 16
+          marginTop : 44
+          paddingLeft : 30
+          paddingRight : 30
+          paddingTop : 20
+          paddingBottom : 20
+    }
+    {
+              Text
+              name : employee
+              onClick : Navigation - navigatetoEmployeeSignIn
+              alignment : center
+              marginLeft : 16
+              marginRight : 16
+              marginTop : 22
+              marginBottom : 5
+              paddingLeft : 30
+              paddingRight : 30
+              paddingTop : 20
+              paddingBottom : 20
+      }
+  ]  
+}
 
